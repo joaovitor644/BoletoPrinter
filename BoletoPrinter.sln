@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70DB888A-D60E-4A76-BC69-89E0FBE28D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoPrinter.Domain", "src\BoletoPrinter.Domain\BoletoPrinter.Domain.csproj", "{89367268-F779-4B23-8E79-13AB8B348F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoPrinter.Infrastructure", "src\BoletoPrinter.Infrastructure\BoletoPrinter.Infrastructure.csproj", "{8E6D9BDE-0180-46F9-9D15-C7489189E52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoPrinter.Worker", "src\BoletoPrinter.Worker\BoletoPrinter.Worker.csproj", "{28F2D6D5-F7C1-452A-9FF6-54109BDD8E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoPrinter.Web", "src\BoletoPrinter.Web\BoletoPrinter.Web.csproj", "{177641FC-5C8E-41BE-88A2-E521DA0A99C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89367268-F779-4B23-8E79-13AB8B348F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89367268-F779-4B23-8E79-13AB8B348F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89367268-F779-4B23-8E79-13AB8B348F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89367268-F779-4B23-8E79-13AB8B348F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6D9BDE-0180-46F9-9D15-C7489189E52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6D9BDE-0180-46F9-9D15-C7489189E52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6D9BDE-0180-46F9-9D15-C7489189E52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6D9BDE-0180-46F9-9D15-C7489189E52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F2D6D5-F7C1-452A-9FF6-54109BDD8E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F2D6D5-F7C1-452A-9FF6-54109BDD8E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F2D6D5-F7C1-452A-9FF6-54109BDD8E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F2D6D5-F7C1-452A-9FF6-54109BDD8E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177641FC-5C8E-41BE-88A2-E521DA0A99C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177641FC-5C8E-41BE-88A2-E521DA0A99C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177641FC-5C8E-41BE-88A2-E521DA0A99C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177641FC-5C8E-41BE-88A2-E521DA0A99C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89367268-F779-4B23-8E79-13AB8B348F37} = {70DB888A-D60E-4A76-BC69-89E0FBE28D97}
+		{8E6D9BDE-0180-46F9-9D15-C7489189E52C} = {70DB888A-D60E-4A76-BC69-89E0FBE28D97}
+		{28F2D6D5-F7C1-452A-9FF6-54109BDD8E45} = {70DB888A-D60E-4A76-BC69-89E0FBE28D97}
+		{177641FC-5C8E-41BE-88A2-E521DA0A99C9} = {70DB888A-D60E-4A76-BC69-89E0FBE28D97}
+	EndGlobalSection
+EndGlobal
